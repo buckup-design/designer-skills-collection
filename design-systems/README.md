@@ -1,6 +1,6 @@
 # design-systems
 Build, document, and maintain scalable design systems — from tokens and components to accessibility and theming.
-## Skills (8)
+## Skills (11)
 - **design-token** — Define and organize design tokens with naming conventions and usage guidance.
 - **component-spec** — Write a detailed component specification including props, states, variants, and accessibility.
 - **pattern-library** — Structure a pattern library entry with problem context, solution, and examples.
@@ -9,6 +9,9 @@ Build, document, and maintain scalable design systems — from tokens and compon
 - **theming-system** — Design a theming architecture for brand variants, dark mode, and high-contrast.
 - **icon-system** — Create an icon system specification covering grid, sizing, naming, and categories.
 - **documentation-template** — Generate structured documentation templates for design system artifacts.
+- **motion-system** — Define a motion system with duration tokens, easing vocabulary, and reduced-motion handling.
+- **design-system-governance** — Define how a design system evolves — contribution models, versioning, change management, and deprecation.
+- **localization-design** — Design interfaces that adapt gracefully to multiple languages, writing directions, and cultural contexts.
 ## Commands (3)
 - `/audit-system` — Audit a design system for consistency, completeness, and accessibility.
 - `/create-component` — Scaffold a full component specification from a name or description.

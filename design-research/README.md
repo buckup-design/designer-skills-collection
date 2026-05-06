@@ -2,7 +2,7 @@
 
 User research skills for designers: personas, empathy maps, journey maps, interview scripts, usability testing, and card sorting.
 
-## Skills (10)
+## Skills (12)
 
 - **user-persona** — Create refined user personas from research data with demographics, goals, frustrations, and behavioral patterns.
 - **empathy-map** — Build a 4-quadrant empathy map (Says, Thinks, Does, Feels) to synthesize user research into actionable insights.
@@ -14,6 +14,8 @@ User research skills for designers: personas, empathy maps, journey maps, interv
 - **diary-study-plan** — Design a diary study plan with prompts, duration, participant criteria, and analysis framework.
 - **affinity-diagram** — Organize qualitative research data into an affinity diagram with themes, clusters, and insight statements.
 - **jobs-to-be-done** — Map user Jobs-to-Be-Done with functional, emotional, and social dimensions plus outcome expectations.
+- **survey-design** — Design surveys that collect reliable, unbiased quantitative data to validate hypotheses and measure user attitudes at scale.
+- **research-repository** — Build and maintain a research repository that makes findings findable, reusable, and cumulative across the organization.
 
 ## Commands (4)
 
