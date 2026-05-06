@@ -14,25 +14,43 @@ Agentic skills, commands, and plugins for design — from research to systems, U
 | [designer-toolkit](./designer-toolkit) | 7 | 3 | Essential utilities: design rationale, presentations, case studies, UX writing, system adoption, and design negotiation. |
 ## Quick Start
 
-### Step 1: Add the Marketplace
+### Claude Code
 
-In Claude Code, run:
+**Step 1: Add the Marketplace**
 
 ```
 /plugin marketplace add Owl-Listener/designer-skills
 ```
 
-This registers the marketplace so you can browse and install individual plugins.
-
-### Step 2: Install Plugins
-
-Open the plugin manager and browse available plugins:
+**Step 2: Install Plugins**
 
 ```
 /plugin
 ```
 
 Go to the **Discover** tab to see all 8 design plugins, then select and install the ones you want.
+
+### Gemini CLI
+
+Install individual plugins as workspace-scoped extensions. From your project root:
+
+```bash
+# Install one plugin (e.g. design-research)
+mkdir -p .gemini/extensions
+cp -r path/to/designer-skills/.gemini/extensions/design-research .gemini/extensions/
+
+# Or clone the repo and symlink all extensions at once
+git clone https://github.com/Owl-Listener/designer-skills /tmp/designer-skills
+cp -r /tmp/designer-skills/.gemini/extensions/. .gemini/extensions/
+```
+
+Each extension is a directory under `.gemini/extensions/` containing a `gemini-extension.json` manifest and a `GEMINI.md` context file compiled from all skills in that plugin. Gemini CLI loads the context automatically when you start a session in that workspace.
+
+To install user-globally (available in all projects):
+
+```bash
+cp -r path/to/designer-skills/.gemini/extensions/design-research ~/.gemini/extensions/
+```
 
 ## What Are Skills and Commands?
 - **Skills** are domain knowledge units (nouns). They teach Claude about a design topic — like creating user personas, defining design tokens, or writing error messages.
